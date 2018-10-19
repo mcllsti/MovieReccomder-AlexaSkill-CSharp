@@ -1,0 +1,27 @@
+C:\Users\Daryl\Desktop\New folder (3)\skill-sample-csharp-fact-master\lambda\custom\bin\Debug\netcoreapp1.0\sampleFactCsharp.deps.json
+C:\Users\Daryl\Desktop\New folder (3)\skill-sample-csharp-fact-master\lambda\custom\bin\Debug\netcoreapp1.0\sampleFactCsharp.dll
+C:\Users\Daryl\Desktop\New folder (3)\skill-sample-csharp-fact-master\lambda\custom\bin\Debug\netcoreapp1.0\sampleFactCsharp.pdb
+C:\Users\Daryl\Desktop\New folder (3)\skill-sample-csharp-fact-master\lambda\custom\obj\Debug\netcoreapp1.0\sampleFactCsharp.csprojAssemblyReference.cache
+C:\Users\Daryl\Desktop\New folder (3)\skill-sample-csharp-fact-master\lambda\custom\obj\Debug\netcoreapp1.0\sampleFactCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Daryl\Desktop\New folder (3)\skill-sample-csharp-fact-master\lambda\custom\obj\Debug\netcoreapp1.0\sampleFactCsharp.AssemblyInfoInputs.cache
+C:\Users\Daryl\Desktop\New folder (3)\skill-sample-csharp-fact-master\lambda\custom\obj\Debug\netcoreapp1.0\sampleFactCsharp.AssemblyInfo.cs
+C:\Users\Daryl\Desktop\New folder (3)\skill-sample-csharp-fact-master\lambda\custom\obj\Debug\netcoreapp1.0\sampleFactCsharp.dll
+C:\Users\Daryl\Desktop\New folder (3)\skill-sample-csharp-fact-master\lambda\custom\obj\Debug\netcoreapp1.0\sampleFactCsharp.pdb
+C:\Users\Chris\Desktop\123\bin\Debug\netcoreapp1.0\sampleFactCsharp.deps.json
+C:\Users\Chris\Desktop\123\bin\Debug\netcoreapp1.0\sampleFactCsharp.dll
+C:\Users\Chris\Desktop\123\bin\Debug\netcoreapp1.0\sampleFactCsharp.pdb
+C:\Users\Chris\Desktop\123\obj\Debug\netcoreapp1.0\sampleFactCsharp.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\123\obj\Debug\netcoreapp1.0\sampleFactCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\123\obj\Debug\netcoreapp1.0\sampleFactCsharp.AssemblyInfoInputs.cache
+C:\Users\Chris\Desktop\123\obj\Debug\netcoreapp1.0\sampleFactCsharp.AssemblyInfo.cs
+C:\Users\Chris\Desktop\123\obj\Debug\netcoreapp1.0\sampleFactCsharp.dll
+C:\Users\Chris\Desktop\123\obj\Debug\netcoreapp1.0\sampleFactCsharp.pdb
+C:\Users\Daryl\Desktop\New folder\bin\Debug\netcoreapp1.0\sampleFactCsharp.deps.json
+C:\Users\Daryl\Desktop\New folder\bin\Debug\netcoreapp1.0\sampleFactCsharp.dll
+C:\Users\Daryl\Desktop\New folder\bin\Debug\netcoreapp1.0\sampleFactCsharp.pdb
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\sampleFactCsharp.csprojAssemblyReference.cache
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\sampleFactCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\sampleFactCsharp.AssemblyInfoInputs.cache
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\sampleFactCsharp.AssemblyInfo.cs
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\sampleFactCsharp.dll
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\sampleFactCsharp.pdb

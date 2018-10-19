@@ -1,0 +1,1118 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "what movie should i watch",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetGenre",
+                    "slots": [
+                        {
+                            "name": "genre",
+                            "type": "genre"
+                        }
+                    ],
+                    "samples": [
+                        "let's watch a {genre}",
+                        "how about a {genre}",
+                        "what about a {genre} movie",
+                        "I enjoy {genre} films ",
+                        "I dig {genre} moives",
+                        "I dig {genre} films",
+                        "I like {genre}",
+                        "I am into {genre} movies",
+                        "give me a {genre}",
+                        "{genre}",
+                        "I want a {genre} movie",
+                        "I like {genre} movies"
+                    ]
+                },
+                {
+                    "name": "GetYear",
+                    "slots": [
+                        {
+                            "name": "year",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "around the year {year}",
+                        "around the {year}",
+                        "from {year}",
+                        "in {year}",
+                        "{year}"
+                    ]
+                },
+                {
+                    "name": "GetSpin",
+                    "slots": [],
+                    "samples": [
+                        "spin that wheel",
+                        "spin the wheel",
+                        "Spin the movie wheel"
+                    ]
+                },
+                {
+                    "name": "GetDirector",
+                    "slots": [
+                        {
+                            "name": "director",
+                            "type": "director"
+                        }
+                    ],
+                    "samples": [
+                        "{director} is the director",
+                        "something by {director}",
+                        "films directed by {director}",
+                        "films by {director}",
+                        "{director}",
+                        "make directed by {director}",
+                        "made by {director}",
+                        "movies directed by {director}",
+                        "movies by {director}",
+                        "directed by {director}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "genre",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Action"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Adventure"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Animation"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Biography"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Comedy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Crime"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Drama"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Family"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fantasy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Film-Noir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "History"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Horror"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Music"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Musical"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mystery"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Romance"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sci-Fi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sport"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thriller"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "War"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Western"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "director",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Aamir Khan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Adam Elliot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Adrian Molina"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Akira Kurosawa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Alejandro G. Iñárritu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Alfred Hitchcock"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Amole Gupte"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Andrei Tarkovsky"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Andrew Stanton"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Anthony Russo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Anurag Kashyap"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Asghar Farhadi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Billy Wilder"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bob Peterson"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bradley Cooper"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brian De Palma"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bryan Singer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Buster Keaton"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Çagan Irmak"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Carl Theodor Dreyer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Carol Reed"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chan-wook Park"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Charles Chaplin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chris Sanders"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Christopher Nolan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clint Eastwood"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Clyde Bruckman"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Curtis Hanson"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Damián Szifron"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Damien Chazelle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Danny Boyle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Darren Aronofsky"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "David Fincher"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "David Lean"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "David Lynch"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "David Silverman"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "David Yates"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dean DeBlois"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Denis Villeneuve"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Elem Klimov"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Eli Roth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Elia Kazan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Éric Toledano"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ethan Coen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "F.W. Murnau"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Federico Fellini"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fernando Meirelles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Florian Henckel von Donnersmarck"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Francis Ford Coppola"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "François Truffaut"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Frank Capra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Frank Darabont"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fritz Lang"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gavin O'Connor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gene Kelly"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "George Cukor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "George Lucas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "George Miller"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "George Roy Hill"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Giuseppe Tornatore"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gore Verbinski"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Guillermo del Toro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gus Van Sant"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Guy Ritchie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Harold Ramis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hayao Miyazaki"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Henri-Georges Clouzot"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ingmar Bergman"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Irvin Kershner"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Isao Takahata"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "James Cameron"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "James Gunn"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "James Mangold"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "James McTeigue"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jean-Pierre Jeunet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jim Sheridan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Joe Russo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Joel Coen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "John Carpenter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "John Ford"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "John G. Avildsen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "John Huston"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "John Lasseter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "John McTiernan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "John Sturges"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jonathan Demme"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Joon-ho Bong"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Joseph L. Mankiewicz"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Juan José Campanella"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kar-Wai Wong"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kátia Lund"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "King Vidor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kirk Wise"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lana Wachowski"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lee Unkrich"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lenny Abrahamson"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lilly Wachowski"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Luc Besson"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "M. Night Shyamalan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Majid Majidi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Makoto Shinkai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Martin McDonagh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Martin Scorsese"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mathieu Kassovitz"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mel Gibson"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mervyn LeRoy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Michael Cimino"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Michael Curtiz"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Michael Mann"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Michel Gondry"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Milos Forman"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Neeraj Pandey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nishikant Kamat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nitesh Tiwari"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Norman Taurog"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nuri Bilge Ceylan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oliver Hirschbiegel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oliver Stone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Olivier Nakache"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Orson Welles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Paul Greengrass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Paul Thomas Anderson"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pete Docter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Peter Bogdanovich"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Peter Jackson"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Peter Weir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Quentin Tarantino"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rajkumar Hirani"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rakeysh Omprakash Mehra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Richard Attenborough"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Richard Kelly"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Richard Linklater"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Richard Marquand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ridley Scott"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rob Minkoff"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rob Reiner"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Robert Mulligan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Robert Zemeckis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Roberto Benigni"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Roger Allers"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Roman Polanski"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ron Howard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ronnie Del Carmen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sam Mendes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sam Wood"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sean Penn"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sergio Leone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sidney Lumet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stanley Donen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stanley Kubrick"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Steve McQueen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Steven Spielberg"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stuart Rosenberg"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tate Taylor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Terry George"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Terry Gilliam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Terry Jones"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Thomas Vinterberg"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tom McCarthy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tony Kaye"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Victor Fleming"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Vittorio De Sica"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wes Anderson"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "William Wyler"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wim Wenders"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wolfgang Petersen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yasujirô Ozu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yavuz Turgul"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Zaza Urushadze"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "GetSpin",
+                    "confirmationRequired": true,
+                    "prompts": {
+                        "confirmation": "Confirm.Intent.1103799151757"
+                    },
+                    "slots": []
+                },
+                {
+                    "name": "GetGenre",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "genre",
+                            "type": "genre",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Confirm.Intent.1103799151757",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Are you ready for your movie?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Are you done helping me narrow it down?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Shall I find you a movie?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Have you specified everything you want to?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1396917384310.990213782032",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "please specify the genre"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "I need you to specify a genre"
+                    }
+                ]
+            }
+        ]
+    }
+}

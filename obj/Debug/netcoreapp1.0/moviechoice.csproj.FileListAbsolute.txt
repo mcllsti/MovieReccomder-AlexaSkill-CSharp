@@ -1,0 +1,9 @@
+C:\Users\Daryl\Desktop\New folder\bin\Debug\netcoreapp1.0\moviechoice.deps.json
+C:\Users\Daryl\Desktop\New folder\bin\Debug\netcoreapp1.0\moviechoice.dll
+C:\Users\Daryl\Desktop\New folder\bin\Debug\netcoreapp1.0\moviechoice.pdb
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\moviechoice.csprojAssemblyReference.cache
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\moviechoice.csproj.CoreCompileInputs.cache
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\moviechoice.AssemblyInfoInputs.cache
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\moviechoice.AssemblyInfo.cs
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\moviechoice.dll
+C:\Users\Daryl\Desktop\New folder\obj\Debug\netcoreapp1.0\moviechoice.pdb
